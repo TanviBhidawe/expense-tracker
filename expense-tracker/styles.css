@@ -1,35 +1,51 @@
-/* body {
-    font-family: arial;
-    background-color: lightgray;
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
 }
 
-div {
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
+.form-container,
+.summary,
+.transactions {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 input, select {
-    width: 200px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
 }
 
 button {
-    background-color: blue;
+    padding: 10px;
+    width: 100%;
+    background: green;
     color: white;
+    border: none;
+    cursor: pointer;
 }
 
-#transactionList li {
-    margin: 5px;
-    padding: 5px;
-    background-color: lightblue;
-} */
- h1{
-    color: blueviolet;
- }
- .form-container h2{
+button:hover {
+    background: darkgreen;
+}
 
-    }
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+}
+ 
